@@ -1,0 +1,154 @@
+/* line 1, ../sass/frame.scss */
+body {
+  width: 1340px;
+  height: 200px;
+  font-family: Arial;
+  background-size: 1366px;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+/* line 9, ../sass/frame.scss */
+.top-nav {
+  width: 1340px;
+  height: 40px;
+  background-color: #262626;
+  overflow: hidden;
+  margin-left: -4px;
+}
+
+/* line 16, ../sass/frame.scss */
+.option {
+  list-style-type: none;
+  height: 40px;
+  float: right;
+  margin-top: 9px;
+}
+
+/* line 22, ../sass/frame.scss */
+.option li {
+  float: left;
+}
+
+/* line 25, ../sass/frame.scss */
+.option li a:link {
+  font-size: 15px;
+  color: #B8C2CC;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 133px;
+  height: 40px;
+}
+
+/* line 34, ../sass/frame.scss */
+.option li a:hover {
+  color: #ffffff;
+}
+
+/* line 37, ../sass/frame.scss */
+.option li a:visited {
+  color: #ffffff;
+}
+
+/* line 40, ../sass/frame.scss */
+.share {
+  margin-top: -40px;
+  margin-left: -3px;
+  padding: 0px;
+  width: 120px;
+}
+
+/* line 46, ../sass/frame.scss */
+.share ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 50, ../sass/frame.scss */
+.share ul li {
+  list-style-type: none;
+  width: 140px;
+  height: 35px;
+  display: inline;
+  float: left;
+  border-radius: 4px;
+}
+
+/* line 58, ../sass/frame.scss */
+.share ul li:hover ul {
+  display: block;
+}
+
+/* line 61, ../sass/frame.scss */
+.share ul li a {
+  color: #B8C2CC;
+  text-align: center;
+  width: 120px;
+  height: 37px;
+  line-height: 35px;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 70, ../sass/frame.scss */
+.share ul li ul {
+  display: none;
+}
+
+/* line 73, ../sass/frame.scss */
+.share ul li ul li {
+  margin: 0px 0px 2px 0px;
+  padding: 0px;
+  background: #262626;
+}
+
+/* line 78, ../sass/frame.scss */
+.share ul li ul li:hover {
+  background: #dc143c;
+}
+
+/* line 81, ../sass/frame.scss */
+.share ul li ul li:hover ul {
+  visibility: visible;
+}
+
+/* line 84, ../sass/frame.scss */
+.main {
+  width: 1000px;
+  margin-left: 190px;
+  margin-top: 150px;
+  font-size: 50px;
+  color: #2f4f4f;
+}
+
+/* line 91, ../sass/frame.scss */
+.main .small {
+  font-size: 26px;
+  padding-left: 290px;
+}
+
+/* line 95, ../sass/frame.scss */
+.download {
+  margin-left: 400px;
+  margin-top: 30px;
+  font-family: Arial;
+  height: 42px;
+  border: 0.5px solid #dc143c;
+  border-radius: 5px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.2);
+  background-color: #dc143c;
+  cursor: pointer;
+}
+
+/* line 109, ../sass/frame.scss */
+.main .tip {
+  color: #008000;
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 440px;
+  margin-top: 20px;
+}

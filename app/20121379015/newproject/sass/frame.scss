@@ -1,0 +1,115 @@
+    body {
+        width:1340px;
+        height: 200px;
+        font-family: Arial;
+        background-size:1366px;
+        background-position:top;
+        background-repeat:no-repeat;
+       }
+    .top-nav{
+        width:1340px;
+        height:40px;
+        background-color:#262626;
+        overflow:hidden;
+        margin-left:-4px;
+     }
+     .option{
+       list-style-type: none;
+       height:40px;
+       float: right;
+       margin-top:9px;
+     } 
+       .option li {
+        float:left;
+     }   
+     .option li a:link {
+         font-size: 15px;
+         color: #B8C2CC;
+         text-align: center;
+         text-decoration: none;
+         display: block;
+         width: 133px;
+         height: 40px;
+        }
+       .option li a:hover {
+         color:#ffffff;
+      }
+       .option li a:visited {
+        color:#ffffff;
+      }
+       .share{
+       margin-top:-40px;
+     margin-left:-3px;
+     padding:0px; 
+       width:120px;
+      }
+       .share ul{
+       margin:0px;
+       padding:0px;
+      }
+       .share ul li{
+       list-style-type:none;
+       width:140px; 
+       height:35px;
+       display:inline;
+       float:left;
+       border-radius:4px; 
+     }
+       .share ul li:hover ul{
+       display:block;
+     }
+       .share ul li a{
+       color:#B8C2CC;
+       text-align:center; 
+       width:120px; 
+       height:37px; 
+       line-height:35px; 
+       display:block; 
+       text-decoration:none;
+     }
+       .share ul li ul{
+       display:none;
+     }
+       .share ul li ul li{
+       margin:0px 0px 2px 0px;
+       padding:0px; 
+       background:#262626;
+     }
+       .share ul li ul li:hover{
+       background:#dc143c;
+       }
+       .share ul li ul li:hover ul{
+       visibility:visible;
+     }
+     .main{
+       width:1000px;
+       margin-left:190px;
+         margin-top:150px;    
+       font-size:50px;
+     color: #2f4f4f;
+     }
+     .main .small{
+       font-size:26px;
+       padding-left:290px;
+     }
+     .download{
+       margin-left:400px;
+       margin-top:30px;
+       font-family: Arial;
+       height:42px;
+       border:0.5px solid #dc143c;
+       border-radius:5px;
+       font-size:16px;
+       letter-spacing:1px;
+       text-align:center;
+       text-shadow:0 -1px rgba(0,0,0,0.2);
+       background-color:#dc143c;
+       cursor: pointer;
+     }
+     .main .tip{
+       color:#008000;
+       font-weight:bold;
+       font-size:13px;
+       margin-left:440px;
+       margin-top:20px;
+     }
